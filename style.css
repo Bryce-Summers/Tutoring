@@ -1,0 +1,97 @@
+/*
+ * This sets the background image and makes sure that it centers itself.
+ */
+html 
+{ 
+
+	/*background: url(./Logo.png) no-repeat center center fixed;*/
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;    
+
+	/* Default text is Roboto for large paragraphs mostly. */
+	/* Poiret One is used instead for titles. */
+	font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+    /* background-color: #57068C; */
+    max-width: 800px;
+    margin: auto;
+    border: 0px solid #000000;
+
+    /* Top, Right, Bottom, Left. */
+    padding: 0px 10px 0px 10px;
+}
+
+/* Sets fill color of elements in any of the headings. */
+h1
+{
+	font-size: 400%;
+}
+
+.caption
+{
+	font-size: 100%;
+	color: "rgb(25,25,25)";
+	font-style: italic;
+}
+
+.quote
+{
+	font-size: 100%;
+	text-align: justify;
+
+
+
+	/* Top, Right, Bottom, Left. */
+    padding: 0px 50px 0px 50px;
+
+	/*
+	background-color:rgba(255,255,255, .9);
+	text-indent: 5em;
+	vertical-align: middle;
+	line-height: 200%;
+	*/
+}
+
+.contact
+{
+	text-align: right;
+	/* Top, Right, Bottom, Left. */
+    padding: 0px 50px 50px 50px;	
+}
+
+.quote_author
+{
+	text-align: center;	
+}
+
+.size1
+{
+	font-size: 100%;
+	text-align: justify;
+
+	/* Top, Right, Bottom, Left. */
+    padding: 0px 0px 0px 0px;
+
+	/*
+	background-color:rgba(255,255,255, .9);
+	text-indent: 5em;
+	vertical-align: middle;
+	line-height: 200%;
+	*/
+}
+
+.size2
+{
+	font-size: 200%;
+}
+
+.centeredImage
+{
+	text-align:center;
+	display:block;
+}
